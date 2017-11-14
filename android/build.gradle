@@ -28,9 +28,10 @@ android {
 
 repositories {
     mavenCentral()
+    maven { url "http://tokbox.bintray.com/maven" }
 }
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    compile 'com.opentok.android:opentok-android-sdk:2.12.0'
+    compile 'com.opentok.android:opentok-android-sdk:2.12.1'
 }
